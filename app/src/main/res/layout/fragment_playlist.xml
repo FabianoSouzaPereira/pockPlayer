@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.exoplayer2.ui.PlayerView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/view_exoplayer_playlist"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/height_exoplayer_frame"
+    android:background="@drawable/ic_baseline_manage_search_24"
+    app:controller_layout_id="@layout/exo_playback_control_portrait"
+    app:hide_on_touch="false"
+    app:resize_mode="fill"
+    app:show_timeout="5000"
+    app:use_controller="true"
+    app:auto_show="true">
+
+    <ProgressBar
+        android:id="@+id/exo_buffering_playlist"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:indeterminate="true"
+        android:visibility="gone" />
+
+    <ImageView
+        android:id="@+id/image_CameraOff"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center"
+        android:visibility="invisible"
+        app:srcCompat="@drawable/ic_baseline_cloud_off_24" />
+
+</com.google.android.exoplayer2.ui.PlayerView>

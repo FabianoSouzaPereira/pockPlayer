@@ -1,12 +1,260 @@
 <resources>
-    <string name="app_name">PockPlayer</string>
+    <string name="app_name" translatable="false">D-Guard Cloud</string>
+    <string name="navigation_drawer_open" translatable="false">Open navigation drawer</string>
+    <string name="navigation_drawer_close" translatable="false">Close navigation drawer</string>
+    <string name="nav_header_title" translatable="false">Android Studio</string>
+    <string name="nav_header_subtitle" translatable="false">android.studio@android.com</string>
+    <string name="nav_header_desc" translatable="false">Navigation header</string>
     <string name="action_settings">Settings</string>
-    <!-- Strings used for fragments for navigation -->
-    <string name="first_fragment_label">First Fragment</string>
-    <string name="second_fragment_label">Second Fragment</string>
-    <string name="next">Next</string>
-    <string name="previous">Previous</string>
 
-    <string name="hello_first_fragment">Hello first fragment</string>
-    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="menu_home">Home</string>
+    <string name="menu_account">Users</string>
+    <string name="menu_settings">Settings</string>
+    <string name="menu_users">Users</string>
+    <string name="menu_cameragroups">Users</string>
+
+    <!-- Keys -->
+    <string name="key.api.token" translatable="false">TOKEN_OATH</string>
+    <string name="key.auth.login" translatable="false">OATH_EMAIL</string>
+    <string name="key.auth.login.user" translatable="false">OATH_EMAIL_USER_DATA</string>
+    <string name="key.auth.oldpass" translatable="false">OLDPASSWORD</string>
+    <string name="key.auth.password" translatable="false">OATH_PASSWORD</string>
+    <string name="key.auth.remember" translatable="false">OATH_REMEMBER</string>
+    <string name="key.user.data" translatable="false">OATH_USER_DATA</string>
+    <string name="key.camera" translatable="false">BUNDLE_CAMERA_SELECTED</string>
+    <string name="key.camera.selected" translatable="false">CAMERA_SELECTED</string>
+    <string name="key.player.state" translatable="false">PLAYER_STATE</string>
+    <string name="key.preferences.theme.key" translatable="false">THEME_KEY</string>
+    <string name="key.settings.theme.dark" translatable="false">DARK_THEME</string>
+    <string name="key.state.list" translatable="false">CAMERA_LIST_STATE_KEY</string>
+    <string name="key.timeline.position" translatable="false">TIMELINE_POSITION_STATE</string>
+    <string name="key.timeline.start.time" translatable="false">TIMELINE_DURATION_STATE</string>
+    <string name="key.timeline.start.index" translatable="false">TIMELINE_START_INDEX</string>
+    <string name="key.timeline.timebar.default" translatable="false">TIMELINE_TIMEBAR_DEFAULT</string>
+    <string name="key.timeline.position.timeline" translatable="false">TIMELINE_POSITION_TIMELINE</string>
+    <string name="key.timeline.display.time.timeline" translatable="false">TIMELINE_DISPLAY_TIME_TIMELINE</string>
+    <string name="key.timeline.url.custom" translatable="false">TIMELINE_URL_CUSTOM</string>
+    <string name="key.mimeType" translatable="false">text/plain</string>
+
+    <string name="key_auth_user_name" translatable="false">USER_NAME</string>
+    <string name="key_auth_user_email" translatable="false">USER_EMAIL</string>
+    <string name="key_auth_user_id" translatable="false">USER_ID</string>
+    <string name="key_auth_user_id_provider" translatable="false">USER_ID_PROVIDER</string>
+    <string name="key_auth_user_id_partner" translatable="false">USER_PARTNER</string>
+    <string name="key_auth_user_id_subscriber" translatable="false">USER_SUBSCRIBER</string>
+    <string name="key_auth_user_id_profile" translatable="false">USER_PROFILE</string>
+    <string name="key_auth_user_profileType" translatable="false">USER_PROFILETYPE</string>
+    <string name="key_auth_user_passwordTemporary" translatable="false">USER_PASSWORDTEMPORARY</string>
+
+    <string name="key_theme_dark" translatable="false">THEMEDARK</string>
+    <string name="key_theme_light" translatable="false">THEMELIGHT</string>
+
+    <!-- Style from server -->
+    <string name="key_idNumber" translatable="false">IDNUMER</string>
+    <string name="key_androidApp" translatable="false">ANDROIDAPP</string>
+    <string name="key_statusbar_color" translatable="false">STATUSBAR</string>
+    <string name="key_toolbar_color" translatable="false">TOOLBAR</string>
+    <string name="key_background_color" translatable="false">BACKGROUNDCOLOR</string>
+    <string name="key_text_color" translatable="false">TEXT</string>
+    <string name="key_splashColor_color" translatable="false">SPLASH</string>
+
+    <string name="date.format.compare">dd-MM-yyyy</string>
+
+    <!-- Menu -->
+    <string name="main.logout">Sair</string>
+    <string name="main.settings">Configurações</string>
+
+    <!-- Actions -->
+    <string name="action.login">Entrar</string>
+    <string name="action.login.forgot">Esqueci a senha</string>
+    <string name="action.login.remember">Lembrar de mim</string>
+    <string name="action.recover.password">Recuperar Senha</string>
+    <string name="action.refresh">Puxe para atualizar</string>
+
+    <!-- Errors -->
+    <string name="error.general.field.required">Este campo é obrigatório.</string>
+    <string name="error.server.general">Não foi possível acessar o servidor.</string>
+    <string name="error.server.access">Problemas ao acessar os dados do servidor.</string>
+    <string name="error.server.access.cameras">Não foi possível acessar a lista de câmeras.</string>
+    <string name="error.server.access.perfil.denied">Acesso negado ao Perfil.</string>
+    <string name="error.server.access_not_found">Recurso não encontrado.</string>
+    <string name="error.server.access.intenal_error">Erro interno do servidor.</string>
+    <string name="error.server.access.gateway.timeout">Tempo esgotado no no servidor gateway.</string>
+    <string name="error.server.connection.fail">Não há conexão com a Internet. Verifique sua conexão.</string>
+    <string name="error.auth.invalid.email">Email inválido.</string>
+    <string name="error.auth.invalid.login">Usuário inválido.</string>
+    <string name="error.auth.invalid.password">Senha inválida.</string>
+    <string name="error.auth.recover.password">Não foi possível solicitar redefinição de senha.</string>
+    <string name="error.auth.recover.email.invalid">E-mail não cadastrado.</string>
+    <string name="error.auth.access.provider.denied">Acesso negado!! \nUsuário não tem acesso a esse Provedor.</string>
+    <string name="error.auth.access.app.denied">Acesso negado!! \nUsuário não tem permissão de acessar o Aplicativo.</string>
+    <string name="error.auth.access.profiles.denied">Usuário sem acesso aos perfis.</string>
+    <string name="error.auth.server.access.invalid.token">Token de acesso inválido.</string>
+
+
+    <!-- Infos -->
+    <string name="info.logout.successful">Logout efetuado com sucesso.</string>
+    <string name="info.login.token.expired">Efetue login novamente.</string>
+    <string name="info.login.failed">Não foi possível efetuar o login. Verifique %1$s e/ou %2$s.</string>
+    <string name="info.movie.date.available">Gravação disponível no período entre %1$s e %2$s.</string>
+    <string name="info.period.noavailable">Período indisponível.</string>
+    <string name="info.camera.share.title">Câmera compartilhada</string>
+    <string name="info.camera.share.body">Veja a câmera:\n%1$s\n\n%2$s\n\nCompartilhada no Aplicativo %3$s</string>
+    <string name="info.recover.password.title">Recuperação de senha</string>
+    <string name="info.recover.password.msg">Uma nova senha foi enviado para %1$s.</string>
+
+    <!-- Prompts -->
+    <string name="prompt.date.format">dd-MM-yyyy HH:mm:ss</string>
+    <string name="prompt.date.format.timeline.hour">HH:mm:ss</string>
+    <string name="prompt.date.format.timeline.day">dd MMMM yyyy</string>
+    <string name="prompt.dialog.title">Atenção</string>
+    <string name="prompt.dialog.button">OK, Entendo</string>
+    <string name="prompt.email">Email</string>
+    <string name="prompt.exoplayer.control.live">Ao Vivo</string>
+    <string name="prompt.exoplayer.nosignal">Sinal não disponível</string>
+    <string name="prompt.password">Senha</string>
+    <string name="prompt.prefs.theme.title">Tema</string>
+    <string name="prompt.prefs.theme.summary">Usar tema escuro</string>
+    <string name="prompt.label.access">Acesso</string>
+    <string name="prompt.label.recorded.video" translatable="false">\u25CF</string>
+    <string name="prompt.not.available">Não disponível</string>
+    <string name="prompt.recover.password">Digite o e-mail para recuperação de senha por e-mail:</string>
+    <string name="prompt.recover.email.sucess">Solicitação enviada com sucesso</string>
+    <string name="prompt.my.account">Minha Conta</string>
+    <string name="prompt.loading">Carregando…</string>
+    <string name="prompt.finish.session">Finalizar Sessão</string>
+
+    <string name="msg.empty.cameras.title">A lista de Câmeras está vazia!</string>
+    <string name="msg.empty.cameras.description">Para começar a monitorar é necessário adicionar câmeras do servidor conectado.</string>
+
+    <!-- Error mesages -->
+    <string name="erroData_greater_than_allowed">Data maior que permitido</string>
+    <string name="erroData_less_than_allowed">Data menor que o permitido</string>
+    <string name="erroHour_greater_than_allowed">Hora maior que permitido</string>
+    <string name="erroHour_less_than_allowed">Hora maior que permitido</string>
+    <string name="errorMaximum_interval_5_min">Intervalo máximo 5 min</string>
+    <string name="errorMinimum_interval_1_min">Intervalo mínimo 1 min</string>
+    <string name="download_complete">Download concluído</string>
+    <string name="image">Imagem</string>
+
+    <!-- Sync Preferences -->
+    <string name="sync_title">Sync email periodically</string>
+    <string name="attachment_title">Download incoming attachments</string>
+    <string name="attachment_summary_on">Automatically download attachments for incoming emails
+    </string>
+    <string name="attachment_summary_off">Only download attachments when manually requested</string>
+
+    <!-- Fragments -->
+    <string name="cameras_group">Grupo de Câmeras</string>
+    <string name="terms">Consentimentos</string>
+    <string name="login">Login</string>
+    <string name="users">Usuários</string>
+    <string name="account">Minha Conta</string>
+    <string name="settings">Configurações</string>
+    <string name="exit">Sair</string>
+
+    <string name="name">Nome</string>
+    <string name="email">Email</string>
+    <string name="verificated">Verificado</string>
+    <string name="not_verificated">Não verificado</string>
+    <string name="invite_users">Convidar Usuário</string>
+    <string name="full_name">Nome completo</string>
+    <string name="profile">Perfil</string>
+
+    <!-- Invite Users -->
+    <string name="invite">Convidar</string>
+    <string name="cancel">Cancelar</string>
+    <string name="selectionItem">Selecione um item</string>
+    <string name="key_groups_cameras">groups_cameras</string>
+
+    <string name="sim_">Sim</string>
+    <string name="droppinguser_title">Apagando registros</string>
+    <string name="dropusers">Deseja mesmo remover este(s) usuário(s)?</string>
+    <string name="dropuser">Deseja apagar o registro?</string>
+    <string name="droped_successul">Usuário(s) excluído(s) com sucesso!</string>
+    <string name="selecteditems">Selecionados</string>
+
+    <string name="resend_invite_title">Reenviando convites</string>
+    <string name="resend_invite_message">Deseja reenviar o(s) convite(s) para este(s) usuário(s)!</string>
+    <string name="resent_invite_user">Reenviado convite(s)</string>
+    <string name="clear_registers">Apagando registros</string>
+    <string name="delete_registers_selecteds">Deseja apagar os registros selecionados?</string>
+    <string name="passw_pattern">Senha deve ter pelo menos um caractere especial, 6 caracteres, uma letra minúscula e uma maiúscula</string>
+    <string name="change_password">ALTERAR SENHA</string>
+    <string name="pr_ximo">PRÓXIMO</string>
+    <string name="confirm_password">Confirmação de senha</string>
+    <string name="password_missmatch">Senhas informadas não conferem</string>
+    <string name="passw_unconfirm">Senhas não conferem</string>
+    <string name="oldpasswordmissmatch">Senha antiga está incorreta</string>
+
+    <string name="field_required">Este campo é de preenchimento obrigatório</string>
+    <string name="tentativa_1_de_3">Tentativa 1 de 3.</string>
+    <string name="tentativa_2_de_3">Tentativa 2 de 3.</string>
+    <string name="tentativa_3_de_3">Tentativa 3 de 3.</string>
+    <string name="conectado_successo">Conectado com sucesso</string>
+    <string name="error_add_cam">Não foi possível estabelecer a conexão</string>
+    <string name="camera_modo_autom_tico">Adicionar câmera</string>
+    <string name="adicionar_c_mera">Adicionar câmera</string>
+    <string name="url_cant_use">O valor informado no campo URL RTSP, não pode se utilizado!</string>
+    <string name="usu_rio">Usuário</string>
+    <string name="password">Senha</string>
+    <string name="save">Salvar</string>
+    <string name="save_upcase">SALVAR</string>
+    <string name="cancel_upcase">CANCELAR</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="cnpj_cpf">CNPJ/CPF</string>
+    <string name="whatsapp">WhatsApp</string>
+    <string name="telephone">Telefone</string>
+    <string name="e_mail">E-mail</string>
+    <string name="zipcode">CEP</string>
+    <string name="complement">Complemento</string>
+    <string name="district">Bairro</string>
+    <string name="city">Cidade</string>
+    <string name="my_data">Meus Dados</string>
+    <string name="razao_social">Razão Social</string>
+    <string name="street">Rua</string>
+    <string name="number">Número</string>
+    <string name="state">Estado</string>
+    <string name="logo">Logo</string>
+    <string name="cameras">Câmeras</string>
+    <string name="_0_selecionada_s">0 selecionada(s)</string>
+    <string name="todos">Todos</string>
+    <string name="apagar">Apagar</string>
+    <string name="compartilhar">Compartilhar</string>
+    <string name="voltar">Voltar</string>
+    <string name="nome_grupo">Nome Grupo</string>
+    <string name="nome_da_camera">Nome da câmera</string>
+    <string name="compartilhamento_de_c_meras">Compartilhamento de câmeras</string>
+    <string name="descri_o">Descrição</string>
+    <string name="plano_de_grava_o">Plano de Gravação</string>
+    <string name="nome_do_cliente">Nome do Cliente</string>
+    <string name="_000_000_000_00">000.000.000-00</string>
+    <string name="endere_o">Endereço</string>
+    <string name="rtsp">Url RTSP</string>
+    <string name="rtmp">Url RTMP</string>
+    <string name="url_camera">URL</string>
+    <string name="autom_tico">Automático</string>
+    <string name="mnrtsp">RTSP</string>
+    <string name="mnrtmp">RTMP</string>
+    <string name="gerado_link_para_a_c_mera">Gerado link para a câmera</string>
+    <string name="copied_to_clipard">Copiado para a área de tranferência</string>
+    <string name="configura_es">Configurações</string>
+    <string name="edit_group">Editar Grupo</string>
+    <string name="offline">offline</string>
+    <string name="tema">Tema</string>
+
+    <!-- FILTERS SEARCH -->
+    <string name="clean_filter">LIMPAR FILTROS</string>
+    <string name="filter_cams">FILTROS DE PESQUISA</string>
+    <string name="ativar_o_modo_escuro">Ativar o modo escuro pode ajuda-lo a evitar parte do cansaço visual</string>
+    <string name="tipo_de_equipamento">Tipo de equipamento</string>
+    <string name="fabricante">Fabricante</string>
+    <string name="modelo">Modelo</string>
+    <string name="serial_number">Número Serial</string>
+    <string name="esse_serial_j_foi_usado">Esse serial já foi usado.</string>
+    <string name="validar">validar</string>
+    <string name="adicionar_camera">Adicionar camera</string>
+
 </resources>

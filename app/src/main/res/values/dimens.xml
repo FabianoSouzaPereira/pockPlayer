@@ -1,3 +1,100 @@
 <resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="nav_header_vertical_spacing">8dp</dimen>
+    <dimen name="nav_header_height">156dp</dimen>
     <dimen name="fab_margin">16dp</dimen>
+    <dimen name="action_bar_size">56dp</dimen>
+
+    <!-- Spacings -->
+    <dimen name="extra_tiny_3dp">3dp</dimen>
+    <dimen name="extra_small_8dp">8dp</dimen>
+    <dimen name="small_10dp">10dp</dimen>
+    <dimen name="template_12dp">12dp</dimen>
+    <dimen name="middle_14dp">14dp</dimen>
+    <dimen name="large_16dp">16dp</dimen>
+    <dimen name="extra_large_18dp">18dp</dimen>
+    <dimen name="extra_large_20dp">20dp</dimen>
+    <dimen name="biggest_24dp">24dp</dimen>
+    <dimen name="biggest_32dp">32dp</dimen>
+    <dimen name="extra_biggest_40dp">40dp</dimen>
+
+    <!-- typical  padding  -->
+    <dimen name="padding_extra_small_8dp">@dimen/extra_small_8dp</dimen>
+    <dimen name="padding_small_10dp">@dimen/small_10dp</dimen>
+    <dimen name="padding_template_12dp">@dimen/template_12dp</dimen>
+    <dimen name="padding_middle_14dp">@dimen/middle_14dp</dimen>
+    <dimen name="padding_large_16dp">@dimen/large_16dp</dimen>
+    <dimen name="padding_extra_large_18dp">@dimen/extra_large_18dp</dimen>
+
+    <!-- typical margins -->
+    <dimen name="margin_tiny_3dp">@dimen/extra_tiny_3dp</dimen>
+    <dimen name="margin_extra_small_8dp">@dimen/extra_small_8dp</dimen>
+    <dimen name="margin_small_10dp">@dimen/small_10dp</dimen>
+    <dimen name="margin_template_12dp">@dimen/template_12dp</dimen>
+    <dimen name="margin_middle_14dp">@dimen/middle_14dp</dimen>
+    <dimen name="margin_large_16dp">@dimen/large_16dp</dimen>
+    <dimen name="margin_extra_large_18dp">@dimen/extra_large_18dp</dimen>
+    <dimen name="margin_extra_large_20dp">@dimen/extra_large_20dp</dimen>
+    <dimen name="margin_extra_large_24dp">@dimen/biggest_24dp</dimen>
+    <dimen name="margin_biggest_32dp">@dimen/biggest_32dp</dimen>
+    <dimen name="margin_extra_biggest_40dp">@dimen/extra_biggest_40dp</dimen>
+
+    <!-- font sizes -->
+    <dimen name="font_size_micro_12sp">12sp</dimen>
+    <dimen name="font_size_small_14sp">14sp</dimen>
+    <dimen name="font_size_medium_16sp">16sp</dimen>
+    <dimen name="font_size_medium_18sp">18sp</dimen>
+    <dimen name="font_size_medium_20sp">20sp</dimen>
+    <dimen name="font_size_large_22sp">22sp</dimen>
+    <dimen name="font_size_extra_large_26sp">26sp</dimen>
+    <dimen name="font_size_big_30sp">30sp</dimen>
+
+    <!-- custom values exo_playback_control_portrait-->
+    <dimen name="padding_exoplayer_control">10dp</dimen>
+    <dimen name="width_exoplayer_playlist_image">150dp</dimen>
+    <dimen name="height_exoplayer_playlist_image">90dp</dimen>
+    <dimen name="height_exoplayer_frame">250dp</dimen>
+    <dimen name="width_exoplayer_thumbnail_frame">1dp</dimen>
+    <dimen name="margin_end_button_timeline">60dp</dimen>
+    <dimen name="size_radius_button_live">4dp</dimen>
+    <dimen name="width_exoplayer_bg_live">60dp</dimen>
+    <dimen name="height_exoplayer_bg_live">22dp</dimen>
+    <dimen name="font_size_exoplayer_bg_live">10sp</dimen>
+    <dimen name="font_size_exoplayer_text_time">11sp</dimen>
+    <dimen name="margin_top_descriptions">1dp</dimen>
+    <dimen name="size_radius_corner_snapshot">10dp</dimen>
+    <dimen name="video_frame_width">2dp</dimen>
+    <dimen name="size_padding_thumbnail_time_bar">1dp</dimen>
+    <dimen name="font_size_thumbnail_time_bar">8sp</dimen>
+    <dimen name="width_thumbnail_progress">15dp</dimen>
+    <dimen name="height_thumbnail_progress">15dp</dimen>
+
+    <dimen name="width_logo_login">202dp</dimen>
+    <dimen name="height_logo_login">65dp</dimen>
+
+    <dimen name="height_shimmer_label">20dp</dimen>
+    <dimen name="height_small_shimmer_label">18dp</dimen>
+    <dimen name="width_shimmer_label">200dp</dimen>
+    <dimen name="width_small_shimmer_label">140dp</dimen>
+    <dimen name="width_max_dialog_sheet">350dp</dimen>
+
+    <dimen name="size_corner_button">25dp</dimen>
+    <dimen name="size_recording_indicator">6dp</dimen>
+    <dimen name="list_item_spacing">16dp</dimen>
+    <dimen name="list_item_spacing_half">8dp</dimen>
+
+    <!-- Custom BottomSheet -->
+    <dimen name="custom_peek_height">600dp</dimen>
+
+    <dimen name="height_TextView">40dp</dimen>
+    <dimen name="height_SearchView">40dp</dimen>
+    <dimen name="width_ToolbarLogo">120dp</dimen>
+    <dimen name="height_ToolbarLogo">50dp</dimen>
+
+    <!--    <dimen name="nav_header_height">100dp</dimen>-->
+    <!-- Per the design guidelines, navigation drawers should be between 240dp and 320dp:
+     https://developer.android.com/design/patterns/navigation-drawer.html -->
+    <dimen name="navigation_drawer_width">260dp</dimen>
 </resources>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="button_swipe" format="reference" />
+    <attr name="backgroundShimmer" format="reference|color" />
+    <attr name="backgroundFocusedShimmer" format="reference|color" />
+    <attr name="buttonForgot" format="reference|color" />
+    <attr name="buttonLogin" format="reference|color" />
+    <attr name="buttonUsers" format="reference|color" />
+    <attr name="logoDrawable" format="reference" />
+    <attr name="buttonInvite" format="reference|color" />
+    <attr name="userIcon" format="reference" />
+    <attr name="colorTitle" format="reference|color" />
+    <attr name="backgroundColor" format="reference|color" />
+    <attr name="textColor" format="reference|color" />
+    <attr name="iconColor" formar="reference|color" />
+    <attr name="buttonEnable" format="reference|color" />
+    <attr name="drawerArrowStyleDark" format="reference|color" />
+    <attr name="logoThemeDark" format="reference|color" />
+    <attr name="appBottomSheetDialogTheme" format="reference|color" />
+</resources>
